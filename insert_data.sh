@@ -7,8 +7,6 @@ else
   PSQL="psql --username=freecodecamp --dbname=worldcup -t --no-align -c"
 fi
 
-# Do not change code above this line. Use the PSQL variable above to query your database.
-
 # Truncate all tables
 echo $($PSQL "TRUNCATE TABLE teams, games")
 
